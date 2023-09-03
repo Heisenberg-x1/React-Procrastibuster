@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(26, 32, 43);
+}
+.input {
+  border: 1px solid rgb(35, 44, 59);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(35, 41, 51);
+  margin-right: 10px;
+  width: 70%;
+}
+.add {
+  padding: 5px;
+  border: 1px solid rgb(35, 44, 59);
+  background: rgb(210, 75, 61);
+  border-radius: 5px;
+}
+
+.list {
+  color: rgb(210, 75, 61);
+  margin: auto;
+
+  width: 70%;
+}
+.list li {
+  list-style-type: none;
+  border-bottom: 1px solid rgb(210, 75, 61);
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.addTask {
+  width: 70%;
+  margin: auto;
+}
+.input:focus {
+  outline: none;
+  border: 2px solid rgb(210, 75, 61);
+  box-shadow: 0 0 5px rgba(210, 75, 61, 0.5);
+  color: white;
+}
+.input{
+    color: white;
+}
